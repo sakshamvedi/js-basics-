@@ -1,0 +1,15 @@
+.container{
+    .box{
+        display: flex;
+        .item1{
+            border: solid 1px gray;
+            margin: 10px;
+            height: 100px;
+            width: 100px;
+            display: flex;
+            font-size: 50px;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

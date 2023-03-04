@@ -1,0 +1,13 @@
+.container .box {
+  display: flex;
+}
+.container .box .item1 {
+  border: solid 1px gray;
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
