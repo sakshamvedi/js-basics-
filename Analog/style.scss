@@ -1,0 +1,35 @@
+.watch-box{
+    height: 200px;
+    border: solid 2px brown;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    .secondhand{
+      width: 2px;
+      background: black;
+      height: 50%;
+      position: absolute;
+      left: 100px;
+      transform-origin: 89% 100%;
+    }
+    .minutehand{
+        width: 4px;
+        background-color: red;
+        height: 40%;
+        position: absolute;
+        left: 100px;
+        top: 20px;
+        transform-origin: 89% 100%;
+       
+    }
+    .hourhand{
+        width: 6px;
+        background-color: blueviolet;
+        height: 30%;
+        left: 100px;
+        top: 40px;
+        position: absolute;
+        transform-origin: 89% 100%;
+        transform: rotate(90deg);
+    }
+}
